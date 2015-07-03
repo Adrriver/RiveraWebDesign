@@ -1,0 +1,40 @@
+#fixedNav {
+	display: inline-block;
+}
+
+ul.navbar-nav {
+	padding-top: 25px;
+	padding-right: 25px;
+	padding-left: 0px;
+	display:inline-block;
+	whitespace: nowrap;
+}
+a > img {
+	
+}
+.navbar-nav > li{	
+	margin-top: -25px;
+	height: 74px;
+	padding-right: 12.5px;
+	padding-left: 12.5px;
+	list-style: none;	
+	background: #666666;
+	border-bottom-right-radius: 20px;
+	box-shadow: 2px -1px .2em 0 #CCC;	
+}
+.navbar > .container-fluid .navbar-brand {
+	margin-left: 10px;
+	background: #666;
+	height: 75px;
+	//width: 400px;
+	border-bottom-left-radius: 20px;
+}
+.navbar-nav > li  h4 {
+	text-decoration: none;
+	cursor: hand;
+	color: #ccc;
+	margin-top: 25px;
+}
+.navbar-right {
+	float: right;
+}
