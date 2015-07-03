@@ -10,6 +10,8 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/_mystyles.css" rel="stylesheet">
+	<!-- Bootstrap CDN -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -18,14 +20,17 @@
     <![endif]-->
   </head>
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top" style="border-radius: 0; height: 75px">
+    <nav class="navbar navbar-default navbar-fixed-top" style="border-radius: 0; height: 0px">
     	<div id="fixedNav" class="container-fluid" >
     		<div class="navbar-header" style="width:100%;!important">
-    			<a class="navbar-brand" href="#" style="padding-top: 25px; padding-left: 25px">
+    			<a id="brand" class="navbar-brand" href="#" style="padding-top: 25px; padding-left: 25px;!important">
     				<img alt="Brand" src"">
     			</a>    		
+    				<div style="display:inline-block"></div>
     				<ul class="navbar-nav navbar-right" style="white-space: nowrap;!important">
-    					<li class="navbar-brand" style="border-bottom-left-radius: 0px; width:100px"><img alt="logo" src""></li>
+    					<li id="main-search" class="navbar-brand" style="border-bottom-left-radius: 0px;">
+    						<a data-target="#"><span class="glyphicon glyphicon-search"></span><h4>Search</h4></a>
+    					</li>
     					<li><a href="#"><h4>Home</h4></a></li>
     					<li><a href="#"><h4>Portfolio</h4></a</li>
     					<li><a href="#"><h4>Design Services</h4></a></li>
