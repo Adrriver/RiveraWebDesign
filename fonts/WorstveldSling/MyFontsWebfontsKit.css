@@ -1,0 +1,34 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3049238, 2015-06-26T00:21:38-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: WorstveldSling by Typotheticals
+ * URL: http://www.myfonts.com/fonts/typotheticals/worstveld-sling/worstveld-sling/
+ * 
+ * Webfont: WorstveldSlingOblique by Typotheticals
+ * URL: http://www.myfonts.com/fonts/typotheticals/worstveld-sling/oblique/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3049238
+ * Licensed pageviews: 20,000
+ * Webfonts copyright: Copyright (c) Graham Meade, 2003. All rights reserved.
+ * 
+ * © 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2e8716");
+
+  
+@font-face {font-family: 'WorstveldSling';src: url(‘_/fonts/WorstveldSling/webfonts/2E8716_0_0.eot');src: url('webfonts/2E8716_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E8716_0_0.woff2') format('woff2'),url('webfonts/2E8716_0_0.woff') format('woff'),url('webfonts/2E8716_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'WorstveldSlingOblique';src: url('webfonts/2E8716_1_0.eot');src: url('webfonts/2E8716_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E8716_1_0.woff2') format('woff2'),url('webfonts/2E8716_1_0.woff') format('woff'),url('webfonts/2E8716_1_0.ttf') format('truetype');}
+ 
