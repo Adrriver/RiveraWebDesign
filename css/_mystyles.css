@@ -1,12 +1,16 @@
+<<<<<<< HEAD
 body {
 	
 }
 
+=======
+>>>>>>> a79477ee64907cf501b2da92150fbf99e0592513
 #fixedNav {
 	display: inline-block;
 }
 
 ul.navbar-nav {
+<<<<<<< HEAD
 	
 	position: absolute;
 	padding-top: 25px;
@@ -46,10 +50,35 @@ ul.navbar-nav {
 	position: absolute;
 	top: 20px;
 	left: 12%;
+=======
+	position: absolute;
+	padding-top: 25px;
+	padding-right: 25px;
+	//padding-left: 0px;
+	display:inline-block;
+	white-space: nowrap;
+	right: 0;
+	
+}
+#main-search > a {
+	font-size: 16px;
+	color: #CCC;
+	text-align: center;
+	display: block;
+	margin-top: -4px;
+	margin-right: 60px;
+	font-family: Helvetica;	
+}
+#main-search > a > span ~ h4 {
+	margin-top: -19px;
+	margin-right: -78px;
+	
+>>>>>>> a79477ee64907cf501b2da92150fbf99e0592513
 }
 .navbar-nav > li{	
 	margin-top: -25px;
 	height: 74px;
+<<<<<<< HEAD
 	padding-right: 14.5px;
 	padding-left: 14.5px;
 	list-style: none;	
@@ -60,11 +89,24 @@ ul.navbar-nav {
 .navbar > .container-fluid .navbar-brand {
 	
 	background: #D9F3FF;
+=======
+	padding-right: 12.5px;
+	padding-left: 12.5px;
+	list-style: none;	
+	background: #666666;
+	border-bottom-right-radius: 20px;
+	box-shadow: 2px -1px .2em 0 #CCC;	
+}
+.navbar > .container-fluid .navbar-brand {
+	
+	background: #666;
+>>>>>>> a79477ee64907cf501b2da92150fbf99e0592513
 	height: 75px;
 	width: 100px;
 	border-bottom-left-radius: 20px;
 	
 }
+<<<<<<< HEAD
 #brand {	
 	position: relative;
 	top: 20px;
@@ -72,6 +114,10 @@ ul.navbar-nav {
 	border-top-right-radius: 20px;
 	background: #D9F3de repeat center;
 	box-shadow: 1px -1px .2em .02em #D3e3de;
+=======
+#brand {
+	margin-left: -4px;
+>>>>>>> a79477ee64907cf501b2da92150fbf99e0592513
 }
 .navbar-header > a ~ div {
 	height: 75px;
@@ -81,6 +127,15 @@ ul.navbar-nav {
 .navbar-nav > li  h4 {
 	text-decoration: none;
 	cursor: hand;
+<<<<<<< HEAD
 	color: #ed6a36;
 	margin-top: 25px;
 }
+=======
+	color: #ccc;
+	margin-top: 25px;
+}
+.navbar-right {
+	float: right;
+}
+>>>>>>> a79477ee64907cf501b2da92150fbf99e0592513

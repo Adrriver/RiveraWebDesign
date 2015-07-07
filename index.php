@@ -20,11 +20,16 @@
     <![endif]-->
   </head>
   <body>
+<<<<<<< HEAD
     <nav class="navbar navbar-default navbar-fixed-top" style="border-radius: 0; height: 75px; background: #D9F3FF;">
+=======
+    <nav class="navbar navbar-default navbar-fixed-top" style="border-radius: 0; height: 0px">
+>>>>>>> a79477ee64907cf501b2da92150fbf99e0592513
     	<div id="fixedNav" class="container-fluid" >
     		<div class="navbar-header" style="width:100%;!important">
     			<a id="brand" class="navbar-brand" href="#" style="padding-top: 25px; padding-left: 25px;!important">
     				<img alt="Brand" src"">
+<<<<<<< HEAD
     			</a>    		    				
     			<button id="main-search" class="navbar-brand" style="border-bottom-left-radius: 0px; height: 74px;" data-target="#"><span class="glyphicon glyphicon-search" style="padding-top:10px"></span></button>
     				<form>
@@ -33,12 +38,21 @@
   					</div>
   					</form>
     				<ul class="navbar-nav navbar-right" style="white-space: nowrap;!important">    					    						
+=======
+    			</a>    		
+    				<div style="display:inline-block"></div>
+    				<ul class="navbar-nav navbar-right" style="white-space: nowrap;!important">
+    					<li id="main-search" class="navbar-brand" style="border-bottom-left-radius: 0px;">
+    						<a data-target="#"><span class="glyphicon glyphicon-search"></span><h4>Search</h4></a>
+    					</li>
+>>>>>>> a79477ee64907cf501b2da92150fbf99e0592513
     					<li><a href="#"><h4>Home</h4></a></li>
     					<li><a href="#"><h4>Portfolio</h4></a</li>
     					<li><a href="#"><h4>Design Services</h4></a></li>
     					<li><a href="#"><h4>Development Services</h4></a></li>
     					<li><a href="#"><h4>Pricing</h4></a></li>
     				</ul>
+<<<<<<< HEAD
     			
     		</div>
     	</div>    				
@@ -51,5 +65,15 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap-min.js"></script>
     <script src="js/myScripts-min.js"></script>
+=======
+    			</nav>
+    		</div>
+    	</div>    				
+	</nav>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+>>>>>>> a79477ee64907cf501b2da92150fbf99e0592513
   </body>
 </html>
