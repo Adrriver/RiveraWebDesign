@@ -7,17 +7,20 @@ $(window).ready(function(){
                 if(offset < 300){
                 $(".navbar-inverse").css({"background":"transparent"});
                 } else {
-                    $(".navbar-inverse").css({"background":"#4386cf"});
+                    $(".navbar-inverse").css({"background-image":"url('Images/mountain-bridge.jpg'"});
+                        $(".navbar-inverse").css({"background-position":"50% 0%"});
                   }
-                        });
-$("#mountain-bridge").click(function(){
-                            $("header.carousel").css({"visibility":"visible"});
-                            });
-
+                setTimeout(function(){
+                    $(".carousel").css({"visibility":"visible"});
+                            $(".carousel").css({"margin-top":"10em"});
+                                $(".carousel").css({"height":"15%"});
+                           $("header~.container").css({"top":"750px"});                               }, 3500);
+});
 $(window).scroll(function(){
             
         if ($(window).scrollTop() > 400){
-            $(".navbar-inverse").css({"background":"#4386cf"});
+            $(".navbar-inverse").css({"background-image":"url('Images/mountain-bridge.jpg'"});
+                 $(".navbar-inverse").css({"background-position":"50% 35%"});
                  $("nav").addClass(".collapsed-nav");
         } else {
             $(".navbar-inverse").css({"background":"transparent"});

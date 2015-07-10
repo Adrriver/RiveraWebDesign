@@ -9,11 +9,13 @@
 
 html,
 body {
-    height: 100%;
+    
+    
 }
 
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    height: 2700px;
 }
 
 .img-portfolio {
@@ -29,13 +31,23 @@ body {
 .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand, .navbar-inverse .navbar-nav > li > a {
     color: #fff;
     font-family: 'cabinregular';
+    font-weight: normal;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
     font-size: 18px;
     letter-spacing: .09em;
+    text-shadow: 0 -1px .2em 0px #222222;
     padding-top: 38px;
+   
 }
 /* Home Page Carousel */
 .carousel {
-    visibility: hidden;!important
+    transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -moz-transition-delay: 500;
+    -webkit-transition: all .5s ease;
+    -webkit-transition-delay: 50;
+    visibility: hidden;
 }
 header.carousel {
     position:relative;
@@ -57,7 +69,12 @@ header.carousel .fill {
 }
 /* Content Styles */
 header ~ .container{
-    margin-top: 680px;
+    position: absolute;
+    top: 750px;
+    margin-left: 55px;
+    display: flex;
+    align-items: center;
+    
 }
 /* 404 Page Styles */
 
@@ -88,6 +105,9 @@ header ~ .container{
 
 footer {
     margin: 50px 0;
+    font-family: 'Helvetica';
+    font-style: 'light';
+    color: white;
 }
 
 /* Responsive Styles */
@@ -106,5 +126,7 @@ footer {
 
     header.carousel .carousel {
         height: 70%;
+        width: auto;
     }
+ 
 }

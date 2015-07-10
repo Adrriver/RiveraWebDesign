@@ -16,26 +16,12 @@
 
     <!-- Custom CSS -->
     <link href="css/modern-business.css" rel="stylesheet">
-    <link href="css/_mystyles.css" rel="stylesheet">
+    <link href="css/_mystyles.css" rel="stylesheet" type="text/css">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="fonts/cabin-font/stylesheet.css" rel="stylesheet" type="text/css">
 
-    <style>
-        @font-face {
-            font-family: 'cabinregular';
-            src: url('fonts/cabin-font/cabin-regular-webfont.eot');
-            src: url('fonts/cabin-font/cabin-regular-webfont.eot?#iefix') format('embedded-opentype'),
-            url('fonts/cabin-font/cabin-regular-webfont.woff2') format('woff2'),
-            url('fonts/cabin-font/cabin-regular-webfont.woff') format('woff'),
-            url('fonts/cabin-font/cabin-regular-webfont.ttf') format('truetype'),
-            url('fonts/cabin-font/cabin-regular-webfont.svg#cabinregular') format('svg');
-            font-weight: normal;
-            font-style: normal;
-    
-        }
-
-</style>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -304,12 +290,23 @@
 
         <!-- Footer -->
         <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; RiveraWeb 2015</p>
+            <div id="footer">
+                <table width="630px">
+                    <tr>
+                        <th><h4 style="font-variant:small-caps">Navigation</h4></th>
+                        <th scope="col" width="157px"></th>
+                        <th scope="col" width="157px"></th>
+                        <th><h4 style="font-variant:small-caps" >Links</h4></th>
+                    </tr>
+                    <tr cellpadding="0">
+<td colspan="1" width><a href="#"><h5>Home</h5></a><a href="#"><h5>WebServices</h5></a><a href="#"><h5>Pricing</h5></a><a href="#"><h5>Portfolio</h5></a><a href="#" style="color:white">Sign in</a> / <a href="#" style="color:white">out</a><a href="#"><h5>Learn More</h5></a><a href="#"><h5>Register as Client</h5></a></td>
+
+                        <td colspan="1"><a href="#"><h5>Site Map</h5></a><a href="#"><h5>About US</h5></a><a href="#"><h5>Disclaimer</h5></a><a href="#"><h5>Privacy Policy</h5></a><a href="#"><h5>Contact</h5></a><a href="#"><h5>Job Opportunities</h5></a></td>
+        <td colspan="2"><h4>RiveraWeb</h4><h5>4955 Ortega Rd.</h5><h5>Las Cruces, NM</h5><h5>88012-7114</h5><h5>575-644-7167</h5></td>
+                </table>
+
                 </div>
-            </div>
-        </footer>
+    </footer>
 
     </div>
     <!-- /.container -->
