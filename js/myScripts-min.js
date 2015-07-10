@@ -7,7 +7,7 @@ $(window).ready(function(){
                 if(offset < 300){
                 $(".navbar-inverse").css({"background":"transparent"});
                 } else {
-                    $(".navbar-inverse").css({"background-image":"url('Images/mountain-bridge.jpg'"});
+                    $(".navbar-inverse").css({"background-image":"url('Images/halftone.png'"});
                         $(".navbar-inverse").css({"background-position":"50% 0%"});
                   }
                 setTimeout(function(){
@@ -19,7 +19,7 @@ $(window).ready(function(){
 $(window).scroll(function(){
             
         if ($(window).scrollTop() > 400){
-            $(".navbar-inverse").css({"background-image":"url('Images/mountain-bridge.jpg'"});
+            $(".navbar-inverse").css({"background-image":"url('Images/halftone.png'"});
                  $(".navbar-inverse").css({"background-position":"50% 35%"});
                  $("nav").addClass(".collapsed-nav");
         } else {
