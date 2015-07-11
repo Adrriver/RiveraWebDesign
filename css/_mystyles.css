@@ -4,7 +4,7 @@ html{
     background: #d06738;
 }
 body{
-    width: calc(100% - 209px);
+    width: 80%;
     margin:auto;
     background-color: #2b1e24;
     background-size: 1280px 1000px;
@@ -84,6 +84,9 @@ li span {
     padding-right: 2px;
     padding-top: 5px;
     top: 16px;
+}
+nav > .container-fluid {
+    width: 85%;
 }
 /* tablet and mobile styles */
 @media(max-width: 768px){

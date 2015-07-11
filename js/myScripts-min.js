@@ -29,7 +29,7 @@ $(window).ready(function(){
                 console.log(auxWidth);
                 
                 var bodyWidth = $("body").width();
-                
+                $(".navbar-nav > li > a, .navbar-nav > li > span").css({"font-size":$(document).width() * .001 + "em"});
 
 });
 
