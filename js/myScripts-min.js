@@ -29,12 +29,7 @@ $(window).ready(function(){
                 console.log(auxWidth);
                 
                 var bodyWidth = $("body").width();
-                if(docWidth/1920 >= .53){
-                    $(".navbar-collapse.collapse").css({"width":((docWidth * 1.21)/1920)*100 + "%"});
-                } else if( docWidth/1920 <= .45 ){
-                    $(".navbar-collapse.collapse").css({"width":"50px"});
-                }
-
+                
 
 });
 

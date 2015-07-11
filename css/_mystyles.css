@@ -10,7 +10,10 @@ body{
     background-size: 1280px 1000px;
 }
 .navbar-collapse.collapse{
-    white-space: no wrap !important;
+    
+    white-space: nowrap !important;
+    
+
 }
  .navbar-inverse {
     
