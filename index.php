@@ -35,7 +35,8 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
+        <div class="container-fluid">
+
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -50,13 +51,20 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="about.html">About</a>
+                        <span>Sign</span><a style="display:inline-block; padding-right:1px; padding-left:4px" id="login" href="log-in.php">In</a><span>/</span><a style="display:inline-block; padding-left:1px" id="logout" href="log-out.php"> Out</a>
                     </li>
                     <li>
-                        <a href="services.html">Services</a>
+                        <a href="web-services.html">Web Services</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+
+                    <li>
+                        <a href="learn-more.php">Learn More</a>
+                    </li>
+                    <li>
+                        <a href="Register.php">Register</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
@@ -92,37 +100,21 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="full-width.html">Full Width Page</a>
-                            </li>
-                            <li>
-                                <a href="sidebar.html">Sidebar Page</a>
-                            </li>
-                            <li>
-                                <a href="faq.html">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="404.html">404</a>
-                            </li>
-                            <li>
-                                <a href="pricing.html">Pricing Table</a>
-                            </li>
-                        </ul>
-                    </li>
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
-
-    <!-- main header image -->
-    <div id="mountain-bridge">
-
-    </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="jumbotron">
+                    </div>
+                </div>
+            </div>
+        </div>
     <!-- Header Carousel -->
     <header id="myCarousel" class="carousel slide">
         <!-- Indicators -->
@@ -165,7 +157,7 @@
     <!-- /header carousel -->
 
     <!-- Page Content -->
-    <div class="container">
+    <div class="container-fluid">
 
         <!-- Marketing Icons Section -->
         <div class="row">
@@ -289,26 +281,25 @@
         <hr>
 
         <!-- Footer -->
-        <footer>
-            <div id="footer">
-                <table width="630px">
-                    <tr>
-                        <th><h4 style="font-variant:small-caps">Navigation</h4></th>
-                        <th scope="col" width="157px"></th>
-                        <th scope="col" width="157px"></th>
-                        <th><h4 style="font-variant:small-caps" >Links</h4></th>
-                    </tr>
+            <footer>
+                <div id="footer">
+                    <table width="630px">
+                        <tr>
+                            <th><h4 style="font-variant:small-caps">Navigation</h4></th>
+                            <th scope="col" width="157px"></th>
+                            <th scope="col" width="157px"></th>
+                            <th><h4 style="font-variant:small-caps" >Links</h4></th>
+                        </tr>
                     <tr cellpadding="0">
-<td colspan="1" width><a href="#"><h5>Home</h5></a><a href="#"><h5>WebServices</h5></a><a href="#"><h5>Pricing</h5></a><a href="#"><h5>Portfolio</h5></a><a href="#" style="color:white">Sign in</a> / <a href="#" style="color:white">out</a><a href="#"><h5>Learn More</h5></a><a href="#"><h5>Register as Client</h5></a></td>
-
-                        <td colspan="1"><a href="#"><h5>Site Map</h5></a><a href="#"><h5>About US</h5></a><a href="#"><h5>Disclaimer</h5></a><a href="#"><h5>Privacy Policy</h5></a><a href="#"><h5>Contact</h5></a><a href="#"><h5>Job Opportunities</h5></a></td>
-        <td colspan="2"><h4>RiveraWeb</h4><h5>4955 Ortega Rd.</h5><h5>Las Cruces, NM</h5><h5>88012-7114</h5><h5>575-644-7167</h5></td>
-                </table>
-
-                </div>
-    </footer>
-
-    </div>
+                <td colspan="1" width><a href="#"><h5>Home</h5></a><a href="#"><h5>WebServices</h5></a><a href="#"><h5>Pricing</h5></a><a href="#"><h5>Portfolio</h5></a><a href="#" style="color:white">Sign in</a> / <a href="#" style="color:white">out</a><a href="#"><h5>Learn More</h5></a><a href="#"><h5>Register as Client</h5></a></td>
+                        <td colspan="1"><a href="#"><h5>Site Map</h5></a><a href="#"><h5>About US</h5></a><a href="#"><h5>Disclaimer</h5></a><a href="#"><h5>Privacy Policy</h5></a><a href="#"><h5>Contact</h5></a><a href="#"><h5>Job Opportunities</h5></a>
+                        </td>
+                    <td colspan="2"><h4>RiveraWeb</h4><h5>4955 Ortega Rd.</h5><h5>Las Cruces, NM</h5>
+                <h5>88012-7114</h5><h5>575-644-7167</h5></td>
+                        </table>
+                    </div>
+                </footer>
+            </div>
     <!-- /.container -->
 
 

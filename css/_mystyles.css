@@ -4,10 +4,13 @@ html{
     background: #d06738;
 }
 body{
-    width: 1280px;
+    width: calc(100% - 209px);
     margin:auto;
     background-color: #2b1e24;
     background-size: 1280px 1000px;
+}
+.navbar-collapse.collapse{
+    white-space: no wrap !important;
 }
  .navbar-inverse {
     
@@ -24,24 +27,26 @@ body{
 .collapsed-nav {
     padding-top: -10px;!important
 }
-#mountain-bridge{
-    height:688px;
-    width: 1279px;
-    display:block;
+.jumbotron{
+    height:689px;
+    width: 100%;
+    display:inline-block;
     background: url("../Images/mountain-bridge.jpg") repeat center;
     background-size: cover;
     box-shadow: 0 3px .4em 0 #222222;
     position: absolute;
-    top: 0;
+    top: -50px;
+    right: 1px;
+    border-radius: 0px;
 }
 #footer{
     background: url("../Images/footer-image.png") no-repeat center;
     background-size: cover;
     height: 210px;
-    width: 109.35%;
+    width: 100%;
     position:relative;
     margin-top: -60px;
-    margin-left: -55px;
+    //margin-left: -55px;
 }
 #footer > table {
     border-spacing: border-collapse;
@@ -66,4 +71,20 @@ a > h5:hover, a > h5:hover {
     color: white;
     text-shadow: 0 1px .1em 0 #000;
     text-decoration: none;
+}
+li span {
+    color: white;
+    display: inline-block;
+    font-family: cabinregular;
+    font-size: 18px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 5px;
+    top: 16px;
+}
+/* tablet and mobile styles */
+@media(max-width: 768px){
+    body{
+        width:100%;
+    }
 }

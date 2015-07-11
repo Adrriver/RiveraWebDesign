@@ -68,10 +68,10 @@ header.carousel .fill {
     background-size: cover;
 }
 /* Content Styles */
-header ~ .container{
-    position: absolute;
+header ~ .container-fluid{
+    position: relative;
     top: 750px;
-    margin-left: 55px;
+   // margin-left: 55px;
     display: flex;
     align-items: center;
     
