@@ -29,16 +29,22 @@ $(window).ready(function(){
                 console.log(auxWidth);
                 
                 var bodyWidth = $("body").width();
-                $(".navbar-nav > li > a, .navbar-nav > li > span").css({"font-size":$(document).width() * .001 + "em"});
+                
+                if( $(document).width() < 1327){
+                    $(".navbar-nav > li > a, .navbar-nav > li > span").css({"font-size":$(document).width() * .001 + "em"});
+                    $(".navbar-collapse.collapse").css({"width":docWidth - 200});
+                }
 
 });
 
 $(window).resize(function(){
         var currDocWidth = $(this).width();
                  
-                 if(currDocWidth/1280 < .9){
+                 console.log($(document).width());
+                 
+                 if(currDocWidth/1280 < .94){
                         
-                   $(".navbar-collapse.collapse").css({"width":docWidth});
+                   $(".navbar-collapse.collapse").css({"width":docWidth - 200});
                  
                     $(".navbar-nav > li > a, .navbar-nav > li > span").css({"font-size":$(document).width() * .001 + "em"});
                  
