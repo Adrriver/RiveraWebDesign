@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width user-scalable=no, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -157,7 +157,7 @@
     <!-- /header carousel -->
 
     <!-- Page Content -->
-    <div class="container-fluid">
+    <div class="container">
 
         <!-- Marketing Icons Section -->
         <div class="row">
@@ -282,21 +282,31 @@
 
         <!-- Footer -->
             <footer>
-                <div id="footer">
-                    <table width="630px">
+                <div id="footer" class="row">
+                	<div class="col-lg-6 col-sm-12">
+                    <table>
                         <tr>
-                            <th><h4 style="font-variant:small-caps">Navigation</h4></th>
-                            <th scope="col" width="157px"></th>
-                            <th scope="col" width="157px"></th>
-                            <th><h4 style="font-variant:small-caps" >Links</h4></th>
+                            <th><h4 style="font-variant:small-caps">Navigation</h4></th>                                                        
                         </tr>
                     <tr cellpadding="0">
                 <td colspan="1" width><a href="#"><h5>Home</h5></a><a href="#"><h5>WebServices</h5></a><a href="#"><h5>Pricing</h5></a><a href="#"><h5>Portfolio</h5></a><a href="#" style="color:white">Sign in</a> / <a href="#" style="color:white">out</a><a href="#"><h5>Learn More</h5></a><a href="#"><h5>Register as Client</h5></a></td>
                         <td colspan="1"><a href="#"><h5>Site Map</h5></a><a href="#"><h5>About US</h5></a><a href="#"><h5>Disclaimer</h5></a><a href="#"><h5>Privacy Policy</h5></a><a href="#"><h5>Contact</h5></a><a href="#"><h5>Job Opportunities</h5></a>
                         </td>
-                    <td colspan="2"><h4>RiveraWeb</h4><h5>4955 Ortega Rd.</h5><h5>Las Cruces, NM</h5>
+                    </table>
+                    </div>
+                
+                	
+                    	<div class="col-lg-6 col-sm-12 col-xs-12">
+                    <table>
+                      <tr>
+                    	<th><h4 style="font-variant:small-caps" >Links</h4></th>
+                      </tr>
+                      <tr>
+                    	<td colspan="2"><h4>RiveraWeb</h4><h5>4955 Ortega Rd.</h5><h5>Las Cruces, NM</h5>
                 <h5>88012-7114</h5><h5>575-644-7167</h5></td>
+                	  </tr>
                         </table>
+                        </div>                    
                     </div>
                 </footer>
             </div>
