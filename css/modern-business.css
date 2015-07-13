@@ -17,7 +17,10 @@ body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     
 }
-
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 100 !important;
+}
 .img-portfolio {
     margin-bottom: 30px;
 }
@@ -36,18 +39,21 @@ body {
     -webkit-font-smoothing: antialiased;
     font-size: 18px;
     letter-spacing: .09em;
-    text-shadow: 0 -1px .2em 0px #222222;
+    text-shadow: 0 1px 0.1em #888;
     padding-top: 38px;
    
 }
 /* Home Page Carousel */
 .carousel {
-    transition: all .5s ease;
-    -moz-transition: all .5s ease;
+    transition: all 500 ease;
+    -moz-transition: all 500 ease;
     -moz-transition-delay: 500;
     -webkit-transition: all .5s ease;
     -webkit-transition-delay: 50;
-    visibility: hidden;
+     visibility: hidden;
+     box-shadow: 0 0 .3em .01em #222222;
+     -moz-box-shadow: 0 0 .3em .01em #222222;
+     -webkit-box-shadow: 0 0 .3em .01em #222222;
 }
 header.carousel {
     position:relative;
@@ -67,12 +73,15 @@ header.carousel .fill {
     background-position: center;
     background-size: cover;
 }
+.carousel-indicators {
+	display: none;
+}
 /* Content Styles */
-header ~ .container-fluid{
+header ~ .container{
     position: relative;
     margin-top: 750px;
    // margin-left: 55px;
-    display: flex;
+    //display: flex;
     
     
 }

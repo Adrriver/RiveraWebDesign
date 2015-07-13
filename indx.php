@@ -1,3 +1,4 @@
+@@ -0,0 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,7 +12,7 @@
 
     <title>Modern Business - Start Bootstrap Template</title>
 
-    <!-- Bootstrap Core CSS -->
+     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
@@ -31,12 +32,11 @@
 
 </head>
 
-<body id="body">
+<body>
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container-fluid">
-
+        <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -45,60 +45,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">RiveraWeb</a>
+                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
+                   <li>
                         <span>Sign</span><a style="display:inline-block; padding-right:1px; padding-left:4px" id="login" href="log-in.php">In</a><span>/</span><a style="display:inline-block; padding-left:1px" id="logout" href="log-out.php"> Out</a>
                     </li>
-                    <li class="dropdown" id="webSvcs">
-                        <a  href="#" class="dropdown-toggle" data-toggle="dropdown" style="padding: 9.945px;">Web Services <b class="caret"></b></a>
-                        <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-                            <li>
-                                <a href="portfolio-3-col.html">Complete Websites</a>
-                            </li>
-                            	<li class="dropdown-submenu">
-                                	<a tabindex="-1" href="#" class="dropdown-toggle" data-toggle="dropdown">Design</a>
-                                		<ul class="dropdown-menu">
-                                		<li tabindex="-1">
-                                			<a href="comp-bootstrap.html">Site Design Only</a>
-                                		</li>
-                                		<li>
-                                			<a href="singpg-bootstrap.html">Coding and Construction</a>
-                                		</li>
-                                		<li>
-                                			<a href="gr-design.html">Commission Graphic Design</a>
-                                		</li>
-                                		
-                                	</ul>
-                            </li>                        
-                            	<li class="dropdown-submenu">
-                                	<a tabindex="-1" href="#" class="dropdown-toggle" data-toggle="dropdown">Development</a>
-                                		<ul class="dropdown-menu">
-                                		<li tabindex="-1">
-                                			<a href="fully-loaded.html"></a>
-                                		</li>                                		
-                                		<li tabindex="-1">
-                                			<a href="comp-bootstrap.html">Database Outfitting</a>
-                                		</li>
-                                		<li tabindex="-2">
-                                			<a href="singpg-bootstrap.html">Database Management</a>
-                                		</li>
-                                		<li tabindex="-3">
-                                			<a href="gr-design.html">Database Integration</a>
-                                		</li>
-                                		
-                                	</ul>
-                            </li>
-                            <li>
-                                <a href="portfolio-4-col.html">Web Apps</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-item.html">Single Portfolio Item</a>
-                            </li>
-                        </ul>
+                    <li>
+                        <a href="web-services.html">Web Services</a>
                     </li>
                     <li>
                         <a href="portfolio.html">Portfolio</a>
@@ -144,14 +100,33 @@
                             </li>
                         </ul>
                     </li>
-
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="full-width.html">Full Width Page</a>
+                            </li>
+                            <li>
+                                <a href="sidebar.html">Sidebar Page</a>
+                            </li>
+                            <li>
+                                <a href="faq.html">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="404.html">404</a>
+                            </li>
+                            <li>
+                                <a href="pricing.html">Pricing Table</a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
-        <div class="container-fluid">
+		<div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="jumbotron">
@@ -160,7 +135,7 @@
             </div>
         </div>
     <!-- Header Carousel -->
-        <header id="myCarousel" class="carousel slide">
+    <header id="myCarousel" class="carousel slide">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -171,18 +146,21 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <div class="fill" style="background-image:url('Images/mountain-bridge.jpg');"></div>
-                <div class="carousel-caption">   
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 1</h2>
                 </div>
             </div>
             <div class="item">
                 <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
                 <div class="carousel-caption">
+                    <h2>Caption 2</h2>
                 </div>
             </div>
             <div class="item">
                 <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
                 <div class="carousel-caption">
+                    <h2>Caption 3</h2>
                 </div>
             </div>
         </div>
@@ -194,8 +172,7 @@
         <a class="right carousel-control" href="#myCarousel" data-slide="next">
             <span class="icon-next"></span>
         </a>
-        </header>
-    <!-- /header carousel -->
+    </header>
 
     <!-- Page Content -->
     <div class="container">
@@ -250,32 +227,32 @@
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover img-circle" src="http://placehold.it/700x450" alt="">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover img-circle" src="http://placehold.it/700x450" alt="">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover img-circle" src="http://placehold.it/700x450" alt="">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover img-circle" src="http://placehold.it/700x450" alt="">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover img-circle" src="http://placehold.it/700x450" alt="">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover img-circle" src="http://placehold.it/700x450" alt="">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
                 </a>
             </div>
         </div>
@@ -365,9 +342,10 @@
     <script>
     $('.carousel').carousel({
         interval: 5000 //changes the speed
-`         });
+                            });
     </script>
 
 </body>
 
 </html>
+
