@@ -127,7 +127,7 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+                <div class="fill" style="background-image:url('Images/mountain-bridge.jpg');"></div>
                 <div class="carousel-caption">
                     <h2>Caption 1</h2>
                 </div>
@@ -283,32 +283,31 @@
         <!-- Footer -->
             <footer>
                 <div id="footer" class="row">
-                	<div class="col-lg-6 col-sm-12">
-                    <table>
+                	<div class="col-lg-4 col-sm-4">
+                    <table cellspacing="2px">
                         <tr>
-                            <th><h4 style="font-variant:small-caps">Navigation</h4></th>                                                        
+                            <th id="Navigation"><h4  style="font-variant:small-caps">Navigation</h4></th>
                         </tr>
-                    <tr cellpadding="0">
+                    <tr cellpadding="10">
                 <td colspan="1" width><a href="#"><h5>Home</h5></a><a href="#"><h5>WebServices</h5></a><a href="#"><h5>Pricing</h5></a><a href="#"><h5>Portfolio</h5></a><a href="#" style="color:white">Sign in</a> / <a href="#" style="color:white">out</a><a href="#"><h5>Learn More</h5></a><a href="#"><h5>Register as Client</h5></a></td>
                         <td colspan="1"><a href="#"><h5>Site Map</h5></a><a href="#"><h5>About US</h5></a><a href="#"><h5>Disclaimer</h5></a><a href="#"><h5>Privacy Policy</h5></a><a href="#"><h5>Contact</h5></a><a href="#"><h5>Job Opportunities</h5></a>
                         </td>
+                        </tr>
                     </table>
                     </div>
                 
                 	
-                    	<div class="col-lg-6 col-sm-12 col-xs-12">
-                    <table>
-                      <tr>
-                    	<th><h4 style="font-variant:small-caps" >Links</h4></th>
-                      </tr>
-                      <tr>
-                    	<td colspan="2"><h4>RiveraWeb</h4><h5>4955 Ortega Rd.</h5><h5>Las Cruces, NM</h5>
-                <h5>88012-7114</h5><h5>575-644-7167</h5></td>
-                	  </tr>
+
+
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                        <table>
+                            <tr>
+                                <th><h4 style="font-variant:small-caps" >Links</h4></th>
+                            </tr>
                         </table>
-                        </div>                    
                     </div>
                 </footer>
+            </div>
             </div>
     <!-- /.container -->
 

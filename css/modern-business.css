@@ -15,7 +15,7 @@ body {
 
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    height: 2700px;
+    
 }
 
 .img-portfolio {
@@ -70,10 +70,10 @@ header.carousel .fill {
 /* Content Styles */
 header ~ .container-fluid{
     position: relative;
-    top: 750px;
+    margin-top: 750px;
    // margin-left: 55px;
     display: flex;
-    align-items: center;
+    
     
 }
 /* 404 Page Styles */
@@ -106,7 +106,7 @@ header ~ .container-fluid{
 footer {
     margin: 50px 0;
     font-family: 'Helvetica';
-    font-style: 'light';
+    font-weight: 100s;
     color: white;
 }
 
@@ -115,7 +115,7 @@ footer {
 @media(max-width:991px) {
     .customer-img,
     .img-related {
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
 }
 
@@ -125,7 +125,7 @@ footer {
     }
 
     header.carousel .carousel {
-        height: 70%;
+        height: 50%;
         width: auto;
     }
  

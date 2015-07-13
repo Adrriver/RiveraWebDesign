@@ -9,6 +9,9 @@ body{
     background-color: #2b1e24;
     background-size: 1280px 1000px;
 }
+.h1, .h2, .h3, .h4, .h5 {
+    font-weight: 100px;
+}
 .navbar-collapse.collapse{
     
     white-space: nowrap !important;
@@ -19,7 +22,7 @@ body{
     
     width: 1280px;
     margin:auto;
-    background: transparent;
+    //background: transparent;
     border: none;
 }
 .navbar {
@@ -33,7 +36,7 @@ body{
      display: inline-block;
 }
 .collapsed-nav {
-    padding-top: -10px;!important
+    padding-top: -10px!important;
 }
 .jumbotron{
     height:689px;
@@ -48,14 +51,14 @@ body{
     right: 1px;
     border-radius: 0px;
 }
+/* Footer styles */
 #footer{
     background: url("../Images/footer-image.png") no-repeat center;
     background-size: cover;
     height: 210px;
-    width: 100%;
     position:relative;
-    margin-top: -60px;
-    //margin-left: -55px;
+    margin-top: -30px;
+    white-space: nowrap;
 }
 #footer > table {
     border-spacing: border-collapse;
@@ -69,14 +72,26 @@ body{
 #footer:not(h4) {
     font-size: 12px;
 }
-a > h5 {
+td, th:not(#Navigation) {
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+#Navigation {
+    padding-left: 40px;
+}
+#
+td + td {
+    padding-left:20px;
+}
+/* End Footer Styles*/
+a > h5, #footer h5 {
     font-size: 12px;
     line-height: .8em;
     color: white;
     text-shadow: 0 1px .1em 0 #000;
     text-decoration: none;
 }
-a > h5:hover, a > h5:hover {
+a:hover {
     color: white;
     text-shadow: 0 1px .1em 0 #000;
     text-decoration: none;
@@ -95,8 +110,14 @@ nav > .container-fluid {
     width: 85%;
 }
 /* tablet and mobile styles */
-@media(min-width:1281){
+@media(min-width:1281px){
     body{
         width:80%;
+    }
+    .nav > li > a {
+        padding: 10 10px !important;
+    }
+    td + td {
+        padding-left: 100px;
     }
 }
