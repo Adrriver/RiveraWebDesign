@@ -36,6 +36,8 @@ body{
      display: inline-block;
      text-shadow: 0 1px 0.1em #888;
      line-height: 1.42857;
+     font-size: 14px !important;
+     
 }
 .navbar-right .dropdown-menu{
 	left: 0;
@@ -105,10 +107,15 @@ body{
     -moz-border-radius: 6px 0 6px 6px;
     border-radius: 6px 0 6px 6px;
 }
-
+.row > .col-lg-12 > h1 {
+	opacity: .2;
+	margin: auto;
+}
 .jumbotron{
-    height:689px;
-    width: 100%;
+	transition: all .5s ease;
+	
+    height:0px;
+    width: 99.82%;
     margin: auto;
     display:inline-block;
     background: url("../Images/mountain-bridge.jpg") repeat center;
@@ -209,6 +216,7 @@ nav > .container-fluid {
         padding-left: 100px;
         padding-right: 40px;
     }
+    
 }
 @media(max-width:1480px){
 	td + td {
@@ -216,5 +224,11 @@ nav > .container-fluid {
 	}
 	header ~ .container{
 		width: 85%;
+	}
+}
+@media(max-width:768px){
+	.row > .col-xs-12 > h1{
+		font-size: 5em !important;
+		text-align: center;
 	}
 }

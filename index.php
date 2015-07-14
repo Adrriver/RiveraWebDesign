@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Modern Business - Start Bootstrap Template</title>
+    <title>RiveraWeb - Home</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -21,7 +21,7 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="fonts/cabin-font/stylesheet.css" rel="stylesheet" type="text/css">
-
+	<link href="fonts/great-vibes/stylesheet.css" rel="stylesheet" type="text/css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -134,6 +134,7 @@
     </nav>
         <div class="container-fluid">
             <div class="row">
+    	<div class="col-lg-12 col-xs-12" style="text-align: center; position: absolute; top: 40%; color: white; font-family: 'great_vibesregular';"><h1 style="font-size: 9em;">Welcome!</h1></div>
                 <div class="col-lg-12">
                     <div class="jumbotron">
                     </div>
@@ -227,7 +228,7 @@
         <!-- Portfolio Section -->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">Portfolio Heading</h2>
+                <h2 class="page-header">Products &amp; Services</h2>
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="portfolio-item.html">
@@ -265,7 +266,7 @@
         <!-- Features Section -->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">Modern Business Features</h2>
+                <h2 class="page-header">What's In Store?</h2>
             </div>
             <div class="col-md-6">
                 <p>The Modern Business template by Start Bootstrap includes:</p>

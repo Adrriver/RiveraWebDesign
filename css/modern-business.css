@@ -64,7 +64,8 @@ header.carousel .carousel-inner {
 }
 
 header.carousel .fill {
-    width: 100%;
+    width: 80.82%;
+    margin:auto;
     height: 100%;
     background-position: center;
     background-size: cover;
@@ -75,6 +76,7 @@ header.carousel .fill {
 }
 /* Content Styles */
 header ~ .container{
+	visibility: hidden;
     position: relative;
     margin-top: 750px;
    // margin-left: 55px;
