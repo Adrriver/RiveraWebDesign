@@ -173,6 +173,9 @@ a > h5, #footer h5 {
     text-shadow: 0 1px .1em 0 #000;
     text-decoration: none;
 }
+#login, #logout {
+	padding: 5px !important;
+}
 a:hover {
     color: white;
     text-shadow: 0 1px .1em 0 #000;
@@ -204,5 +207,14 @@ nav > .container-fluid {
     }
     td + td {
         padding-left: 100px;
+        padding-right: 40px;
     }
+}
+@media(max-width:1480px){
+	td + td {
+		padding-left: 80px;
+	}
+	header ~ .container{
+		width: 85%;
+	}
 }

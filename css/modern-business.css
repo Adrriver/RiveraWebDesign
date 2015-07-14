@@ -34,7 +34,7 @@ body {
 .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand, .navbar-inverse .navbar-nav > li > a {
     color: #fff;
     font-family: 'cabinregular';
-    font-weight: normal;
+    font-weight: 100;
     -moz-font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
     font-size: 18px;
@@ -45,13 +45,9 @@ body {
 }
 /* Home Page Carousel */
 .carousel {
-    transition: all 500 ease;
-    -moz-transition: all 500 ease;
-    -moz-transition-delay: 500;
-    -webkit-transition: all .5s ease;
-    -webkit-transition-delay: 50;
+    
      visibility: hidden;
-     box-shadow: 0 0 .3em .01em #222222;
+     box-shadow: 0 2px .3em .01em #222222;
      -moz-box-shadow: 0 0 .3em .01em #222222;
      -webkit-box-shadow: 0 0 .3em .01em #222222;
 }
@@ -72,6 +68,7 @@ header.carousel .fill {
     height: 100%;
     background-position: center;
     background-size: cover;
+    transition: all .5s ease;
 }
 .carousel-indicators {
 	display: none;
