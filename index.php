@@ -78,7 +78,7 @@
                                 	<a tabindex="-1" href="#" class="dropdown-toggle" data-toggle="dropdown">Development</a>
                                 		<ul class="dropdown-menu">
                                 		<li tabindex="-1">
-                                			<a href="fully-loaded.html"></a>
+                                			<a href="fully-loaded.html">Fully Loaded</a>
                                 		</li>                                		
                                 		<li tabindex="-1">
                                 			<a href="comp-bootstrap.html">Database Outfitting</a>
@@ -188,6 +188,7 @@
                 <h1 class="page-header">
                     Welcome to Modern Business
                 </h1>
+                <br>
             </div>
             <div class="col-md-4">
                 <div class="panel panel-default">
@@ -302,7 +303,8 @@
         </div>
 
         <hr>
-
+		</div>
+		
         <!-- Footer -->
             <footer>
                 <div id="footer" class="row">
@@ -329,11 +331,10 @@
                             </tr>
                         </table>
                     </div>
+            </div>
                 </footer>
-            </div>
-           </div>
-            </div>
-           
+          
+        
     <!-- /.container -->
 
 
