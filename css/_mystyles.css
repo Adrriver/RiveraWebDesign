@@ -123,12 +123,13 @@ body{
     width: 99.82%;
     margin: auto;
     display:inline-block;
-    background: url("../Images/mountain-bridge.jpg") repeat center;
+    background: url("../Images/mountain-bridge.jpg") no-repeat center;
     background-size: cover;
     position: absolute;
     top: -50px;
     right: 1px;
     background-position: 0 80%;
+    background-repeat: no-repeat;
 }
 .container .jumbotron, .container-fluid .jumbotron {
 	border-bottom-left-radius: 0px;

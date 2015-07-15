@@ -65,7 +65,8 @@ header.carousel .fill {
     width: 100%;
     margin:auto;   
     height: 100%;    
-    background-size:100%;
+    background-size:cover;
+    background-repeat: no-repeat;
     transition: all .5s ease;
     opacity: .96;
     border-top-right-radius: 20px;
