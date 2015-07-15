@@ -47,6 +47,14 @@
                 </button>
                 <a class="navbar-brand" href="index.html">RiveraWeb</a>
             </div>
+            <div id="main-search" class="col-lg-4 col-md-2 col-sm-2">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Search">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button" style="height:25px; width:20px;"></button>
+      </span>
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -153,17 +161,17 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <div class="fill" style="background-image:url('Images/mountain-bridge.jpg');"></div>
+                <div class="fill" style="background-image:url('https://static.pexels.com/photos/1171/person-apple-laptop-notebook.jpg');"></div>
                 <div class="carousel-caption">   
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+                <div class="fill" style="background-image:url('https://static.pexels.com/photos/5103/apple-desk-working-technology.jpeg');"></div>
                 <div class="carousel-caption">
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+                <div class="fill" style="background-image:url('https://static.pexels.com/photos/4957/person-woman-hand-smartphone.jpg');"></div>
                 <div class="carousel-caption">
                 </div>
             </div>
@@ -265,7 +273,7 @@
         <!-- /.row -->
 
         <!-- Features Section -->
-        <div class="row">
+        <div class="row panel panel-default">
             <div class="col-lg-12">
                 <h2 class="page-header">What's In Store?</h2>
             </div>
@@ -308,7 +316,7 @@
         <!-- Footer -->
             <footer>
                 <div id="footer" class="row">
-                	<div class="col-lg-4 col-sm-4">
+                	<div class="col-lg-4 col-xs-3" style="white-space:nowrap">
                     <table cellspacing="2px">
                         <tr>
                             <th id="Navigation"><h4  style="font-variant:small-caps">Navigation</h4></th>
@@ -324,10 +332,10 @@
                 	
 
 
-                        <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="col-lg-4 col-xs-6 col-xs-offset-3">
                         <table>
                             <tr>
-                                <th><h4 style="font-variant:small-caps" >Links</h4></th>
+                                <th style="white-space:nowrap"><h4 style="font-variant:small-caps" >Links</h4></th>
                             </tr>
                         </table>
                     </div>
@@ -348,9 +356,7 @@
     <script>
     $('.carousel').carousel({
         interval: 5000 //changes the speed        
-         });
-	$('carousel').wrap(true);
-		
+         });	
     </script>
 
 </body>
