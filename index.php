@@ -45,7 +45,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">RiveraWeb</a>
+                <a class="navbar-brand" href="index.html"><img style="width:40%"; src="Images/test-logo.png"/></a>
             </div>
             <div id="main-search" class="col-lg-4 col-md-2 col-sm-2">
     <div class="input-group">
@@ -189,12 +189,50 @@
 
     <!-- Page Content -->
     <div class="container">
-
+		<div class="row" id="first-row">
+		<div class="col-md-4 col-xs-12" >
+			<span id="lm-parenth"><h1>{</h1></span>
+			<h4 id="advert">
+				<span id="adv"><h1>Advertise</h1></span>
+				Hand-crafted graphics and images to reflect the 
+				quality & character of your products and services
+				Inviting & Intuitive User-interfaces that 
+				facilitate ease of navigation and flexibile browsing
+				Represent the complexity and beauty 
+				of your business  in your site’s schemas<span><h1 style="font-size:43em">}</h1></span>
+			</h4>
+			</div>
+		<div class="col-md-4 col-xs-12">
+			<span id="lm-parenth-2"><h1>{</h1></span>
+			<h4 id="interact"><span><h1>Interact</h1></span>
+				Interact
+				User experiences of rewarded exploration
+				through polished and responsive components
+				Desktop, Tablet, and Mobile  functionality ensures
+				modes of access to your site are maximized
+				Make full use of web 2.0 technologies  to achieve dynamic 
+				flow of important information and data<span><h1 style="font-size:43em">}</h1></span>
+			</h4>
+			
+		</div>
+		
+		<div class="col-md-4  col-xs-12">
+			<span id="lm-parenth-3"><h1>{</h1></span>
+			<h4 id="transact"><span><h1>Transact</h1></span>			
+				Provide confidence in online purchasing and data 
+				management through secure and trusted back-end technologies
+				Expand your market presence by offering shopping 
+				opportunities to customers at home and abroad
+				Maximize your profit with low-overhead
+				online merchandizing using leading e-mcommerce applications,<span><style="h1 style=font-size:43em;margin-top:50px; margin-right:-23px">}</h1></span>
+			</h4>
+			</div>
+		</div>
         <!-- Marketing Icons Section -->
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">
-                    Welcome to Modern Business
+                    RiveraWeb Design &amp; Development
                 </h1>
                 <br>
             </div>
