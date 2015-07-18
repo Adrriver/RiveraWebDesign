@@ -190,7 +190,8 @@
     <!-- Page Content -->
     <div class="container">
 		<div class="row" id="first-row">
-		<div class="col-md-4 col-xs-12" >
+		<div class="col-md-4 col-sm-12 col-xs-12" >
+			
 			<span id="lm-parenth"><h1>{</h1></span>
 			<h4 id="advert">
 				<span id="adv"><h1>Advertise</h1></span>
@@ -199,10 +200,10 @@
 				Inviting & Intuitive User-interfaces that 
 				facilitate ease of navigation and flexibile browsing
 				Represent the complexity and beauty 
-				of your business  in your site’s schemas<span><h1 style="font-size:43em">}</h1></span>
+				of your business  in your site’s schemas<span><h1 style="font-size:45.4em; margin-top:12px">}</h1></span>
 			</h4>
 			</div>
-		<div class="col-md-4 col-xs-12">
+		<div class="col-md-4 col-sm-12 col-xs-12">
 			<span id="lm-parenth-2"><h1>{</h1></span>
 			<h4 id="interact"><span><h1>Interact</h1></span>
 				Interact
@@ -211,12 +212,12 @@
 				Desktop, Tablet, and Mobile  functionality ensures
 				modes of access to your site are maximized
 				Make full use of web 2.0 technologies  to achieve dynamic 
-				flow of important information and data<span><h1 style="font-size:43em">}</h1></span>
+				flow of important information and data<span><h1 style="font-size:45.4em; margin-top:17px;">}</h1></span>
 			</h4>
 			
 		</div>
 		
-		<div class="col-md-4  col-xs-12">
+		<div class="col-md-4 col-sm-12 col-xs-12">
 			<span id="lm-parenth-3"><h1>{</h1></span>
 			<h4 id="transact"><span><h1>Transact</h1></span>			
 				Provide confidence in online purchasing and data 
@@ -224,7 +225,7 @@
 				Expand your market presence by offering shopping 
 				opportunities to customers at home and abroad
 				Maximize your profit with low-overhead
-				online merchandizing using leading e-mcommerce applications,<span><style="h1 style=font-size:43em;margin-top:50px; margin-right:-23px">}</h1></span>
+				online merchandizing using leading e-mcommerce applications,<span><h1 style="font-size:45.4em;margin-top:17px; margin-right:-3px;">}</h1></span>
 			</h4>
 			</div>
 		</div>
